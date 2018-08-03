@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Open in Jira Options</title>
+</head>
+<body>
+  <label>
+    Jira URL(eg. https://YOUR-ACCOUNT.atlassian.net):
+    <br>
+    <input type="text" id="jira_url" value = 'https://YOUR-ACCOUNT.atlassian.net' style="width: 500px">
+  </label>
+  <br>
+  <br>
+  <label>
+    <br>
+    Default Project Key(eg. SOC):
+    <br>
+    <input type="text" id="project_key" value = 'KEY' style="width: 500px">
+  </label>
+
+  <label>
+    <br>
+    <br>
+    Limit Recent Visited List To(eg: 10):
+    <br>
+    <input type="text" id="recent_count" value = '10' style="width: 500px">
+  </label>
+
+  <div id="status" style = "margin: 30px;"></div>
+  <button id="save" style = "width: 80px; text-align: center;">Save</button>
+  <script src="options.js"></script>
+</body>
+</html>
